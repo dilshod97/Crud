@@ -16,7 +16,7 @@ integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw
 <div class="card-columns">
     {% for new in news %}
     <div class="card" style="width: 18rem;">
-  <img class="card-img-top" src="{{ book.picture.url }}">
+  <img class="card-img-top" src="{{ new.picture.url }}">
   <div class="card-body">
     <h5 class="card-title">{{ new.title }}</h5>
     <p class="card-text">{{ new.describe }}</p>
